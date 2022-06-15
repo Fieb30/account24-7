@@ -7,4 +7,4 @@ client = commands.Bot(command_prefix=':', self_bot=True)
 
 
 keep_alive.keep_alive()
-client.run(os.getenv("TOKEN"), bot=alse)
+client.run(os.getenv("TOKEN"), bot=False)
